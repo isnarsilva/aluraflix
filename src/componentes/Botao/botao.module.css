@@ -1,0 +1,32 @@
+.link {
+    display: flex;
+    width: 175px;
+    height: 45px;
+    border: 2px solid #FFFFFF;
+    background-color: #262626;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.linkDestacado {
+    display: flex;
+    width: 175px;
+    height: 45px;
+    border: 4px solid var(--Blue, #2271D1);
+    box-shadow: 0px 5px 29px 0px #2271D1B2;
+    background-color: #000000;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #2271D1;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+}
