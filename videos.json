@@ -1,0 +1,20 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "O que faz uma desenvolvedora front-end?",
+            "categoria": "front-end",
+            "imagem": "https://youtu.be/ZY3-MFxVdEw",
+            "video": "https://youtu.be/ZY3-MFxVdEw?si=GvlI5zc7SnJbJFYP",
+            "descricao": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio! "
+        },
+        {
+            "id": 2,
+            "titulo": "GitHub CLI - Uma Nova Experiência no Github!",
+            "categoria": "back-end",
+            "imagem": "https://youtu.be/6o6-bKOZOEY",
+            "video": "https://youtu.be/6o6-bKOZOEY?si=8UHxafIVHK3BsXxh",
+            "descricao": "Nesse vídeo vamos aprender um pouco mais o que seria o GitHub CLI e quais são as suas vantagens!"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+.listaSuspensa {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   margin-top: 40px;
+   font-family: "Source Sans 3", sans-serif;
+}
+
+.listaSuspensa label {
+    display: block;
+    font-size: 16px;
+}
+
+
+.listaSuspensa select {
+    background-color: transparent;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    width: 570px;
+    height: 32px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.listaSuspensa option {
+    color: #000000;
+}

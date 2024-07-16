@@ -1,5 +1,16 @@
+import { useState } from "react";
+import Formulario from "../../componentes/Formulario";
+
 export default function Cadastro() {
+    
+    const [videos, setVideos] = useState([])
+
+    const aoNovoVideoAdicionado = (video) => {
+        console.log(video)
+        setVideos([...videos, video])
+    }
+    
     return (
-        <h1>Página de Cadastro</h1>
+        <Formulario aoVideoCadastrado = {video => aoNovoVideoAdicionado(video)}/>
     )
 }

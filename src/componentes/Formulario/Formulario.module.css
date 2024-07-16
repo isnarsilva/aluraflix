@@ -1,0 +1,78 @@
+.formulario {
+    background-color: #262626;
+    padding: 0 2rem;
+    color: #FFFFFF;
+}
+
+.titulo {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 71px 0 41px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.titulo h3 {
+    font-size: 20px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem 4rem 5rem;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.botao {
+    display: flex;
+    gap: 30px;
+    padding-top: 3rem;
+}
+
+.botao button {
+    width: 175px;
+    height: 45px;
+    border: 2px solid #FFFFFF;
+    background-color: #262626;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.linhaTitulo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.linhaVideo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.descricao p {
+    padding-top: 20px;
+}
+
+.descricao textarea {
+    background-color: transparent;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.descricao ::placeholder {
+    margin: 90px 0;
+}
